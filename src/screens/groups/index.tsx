@@ -1,10 +1,15 @@
 import { Header } from '@components/Header';
-import { Container, Title } from './styles';
+import { HighLight } from '@components/HighLight';
+import { Container } from './styles';
 
 export function Groups() {
     return (
         <Container>
-            <Header/>
+            <Header />
+            <HighLight
+                title='Turmas'
+                subtitle='Jogue com sua turma'
+            />
         </Container>
     );
 }
